@@ -18,3 +18,15 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+  background-color: #000;
+}
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
