@@ -37,10 +37,10 @@ h1 {
 }
 
 main {
-  width: 100%;
+  /* width: 100%; */
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   padding: 20px 40px;
 }
 .info {
@@ -69,6 +69,7 @@ main {
   flex-flow: wrap column;
   justify-content: center;
   align-items: center;
+  align-self: center;
   padding: 20px;
   border-radius: 5px;
   background-color: rgb(252, 238, 244);
@@ -94,4 +95,32 @@ main {
   border-color: transparent;
   color: #fff;
   background-color: rgb(96, 93, 247);
+}
+
+.article {
+  width: 70%;
+  margin: 0 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.article img {
+  width: 100%;
+}
+.article div {
+  width: 48%;
+  padding-bottom: 2%;
+  border: 1px solid #999;
+}
+.article div:nth-child(1) {
+  height: 46%;
+}
+.article div:nth-child(3) {
+  margin-top: -20%;
+}
+.article h2,
+.article p,
+.article a {
+  text-decoration: none;
+  padding: 0 10px;
 }
