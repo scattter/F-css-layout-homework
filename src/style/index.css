@@ -101,22 +101,21 @@ main {
   width: 70%;
   margin: 0 3%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  flex-flow: column wrap;
+  height: 1020px;
 }
 .article img {
   width: 100%;
 }
 .article div {
-  width: 48%;
+  margin: 20px;
+  margin-top: 0;
+  width: calc(100% / 2 - 40px);
   padding-bottom: 2%;
   border: 1px solid #999;
 }
-.article div:nth-child(1) {
-  height: 46%;
-}
-.article div:nth-child(3) {
-  margin-top: -20%;
+.article div:nth-child(2) {
+  order: 1;
 }
 .article h2,
 .article p,
@@ -126,8 +125,7 @@ main {
 }
 
 footer {
-  margin: 0 auto;
-  padding: 5px 0;
   text-align: center;
+  padding: 10px;
   background-color: rgb(242, 250, 242);
 }
