@@ -124,3 +124,10 @@ main {
   text-decoration: none;
   padding: 0 10px;
 }
+
+footer {
+  margin: 0 auto;
+  padding: 5px 0;
+  text-align: center;
+  background-color: rgb(242, 250, 242);
+}
